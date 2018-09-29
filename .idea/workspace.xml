@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325b67c5-f009-41f5-805f-119c2979210b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cfyd/jz/base/InsertSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfyd/jz/base/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cfyd/jz/base/ShellSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfyd/jz/base/InsertSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfyd/jz/base/InsertSort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,8 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algorithm$ShellSort.coverage" NAME="ShellSort Coverage Results" MODIFIED="1538200979397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfyd/jz/base" />
     <SUITE FILE_PATH="coverage/algorithm$o1.coverage" NAME="o1 Coverage Results" MODIFIED="1538181906215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfyd/jz/array" />
-    <SUITE FILE_PATH="coverage/algorithm$InsertSort.coverage" NAME="InsertSort Coverage Results" MODIFIED="1538182363114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfyd/jz/base" />
+    <SUITE FILE_PATH="coverage/algorithm$InsertSort.coverage" NAME="InsertSort Coverage Results" MODIFIED="1538183290482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cfyd/jz/base" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-546412440">
@@ -26,22 +27,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="645" />
+          <entry key="py" value="895" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="645" />
+          <entry key="Python" value="895" />
         </counts>
       </usages-collector>
     </session>
@@ -86,16 +87,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cfyd/jz/base/InsertSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state>
+              <caret selection-end-column="14" />
               <folding>
-                <marker date="1538182422972" expanded="true" signature="40:41" ph="..." />
+                <marker date="1538200070573" expanded="true" signature="65:66" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cfyd/jz/base/ShellSort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <marker date="1538200960550" expanded="true" signature="30:35" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cfyd/jz/base/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -136,6 +154,7 @@
         <option value="$PROJECT_DIR$/cfyd/jz/string/02.py" />
         <option value="$PROJECT_DIR$/cfyd/jz/list/o3.py" />
         <option value="$PROJECT_DIR$/cfyd/jz/base/InsertSort.py" />
+        <option value="$PROJECT_DIR$/cfyd/jz/base/ShellSort.py" />
       </list>
     </option>
   </component>
@@ -193,13 +212,6 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="cfyd" type="462c0819:PsiDirectoryNode" />
               <item name="jz" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="cfyd" type="462c0819:PsiDirectoryNode" />
-              <item name="jz" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -231,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.InsertSort">
+  <component name="RunManager" selected="Python.ShellSort">
     <configuration name="InsertSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,6 +258,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cfyd/jz/base/InsertSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShellSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cfyd/jz/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cfyd/jz/base/ShellSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,9 +313,11 @@
     <list>
       <item itemvalue="Python.InsertSort" />
       <item itemvalue="Python.o1" />
+      <item itemvalue="Python.ShellSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ShellSort" />
         <item itemvalue="Python.InsertSort" />
         <item itemvalue="Python.o1" />
       </list>
@@ -374,12 +410,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cfyd/jz/base/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cfyd/jz/base/InsertSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state>
+          <caret selection-end-column="14" />
           <folding>
-            <marker date="1538182422972" expanded="true" signature="40:41" ph="..." />
+            <marker date="1538200070573" expanded="true" signature="65:66" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cfyd/jz/base/ShellSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1538200960550" expanded="true" signature="30:35" ph="..." />
           </folding>
         </state>
       </provider>
