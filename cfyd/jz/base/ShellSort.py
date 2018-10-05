@@ -10,4 +10,4 @@ class Solution:
                         array[i],array[j] = array[j],array[i]
         return array
 
-    print shell_sort([0,2,1])
+    print shell_sort([0,2,1,3])
